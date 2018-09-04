@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.82016">
+<testcase classname="Login to CRM site" name="Login to CRM site" time="24.82016">
+<failure message="org.junit.ComparisonFailure: expected:&lt;CRMPRO[1]&gt; but was:&lt;CRMPRO[]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at stepDefinitions.login_stepdefinitions.user_successfully_logged_into_the_CRM_site(login_stepdefinitions.java:46)&#13;&#10;&#9;at ✽.Then user successfully logged into the CRM site(C:/Ramesh_1/src/Pracitce/src/main/java/Feature/login.feature:6)&#13;&#10;"><![CDATA[Given User already on the login page........................................passed
+When User enters the username and password..................................passed
+Then user successfully logged into the CRM site.............................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<CRMPRO[1]> but was:<CRMPRO[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinitions.login_stepdefinitions.user_successfully_logged_into_the_CRM_site(login_stepdefinitions.java:46)
+	at ✽.Then user successfully logged into the CRM site(C:/Ramesh_1/src/Pracitce/src/main/java/Feature/login.feature:6)
+]]></failure>
+</testcase>
+</testsuite>

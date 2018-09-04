@@ -1,0 +1,7 @@
+BDD\Pracitce\App.class
+crm\qa\pom\pages\LoginPage.class
+stepDefinitions\login_stepdefinitions.class
+crm\qa\pom\pages\HomePage.class
+crm\qa\utils\TestUtil.class
+crm\qa\pom\pages\ContactsPage.class
+crm\qa\utils\TestBase.class
